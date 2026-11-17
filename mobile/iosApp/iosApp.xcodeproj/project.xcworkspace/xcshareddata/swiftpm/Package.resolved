@@ -1,0 +1,42 @@
+{
+  "originHash" : "a13e85c19aff9510a74ebf54573d9784aebc11f95f947eccde5b5c6018204349",
+  "pins" : [
+    {
+      "identity" : "algokit-core-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/algorandecosystem/algokit-core-swift",
+      "state" : {
+        "revision" : "2abf00396ef314d72eec47905cf982494f18a6ed",
+        "version" : "1.0.0-alpha.85"
+      }
+    },
+    {
+      "identity" : "falcon-signatures-mobile",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/algorandecosystem/falcon-signatures-mobile",
+      "state" : {
+        "revision" : "cf0162160f9497db5ec5ef089bea93472baa5b2d",
+        "version" : "0.0.19"
+      }
+    },
+    {
+      "identity" : "mnemonicswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Electric-Coin-Company/MnemonicSwift",
+      "state" : {
+        "revision" : "2d7f3e76e904621e111efada6cc9575f39543bb2",
+        "version" : "2.2.5"
+      }
+    },
+    {
+      "identity" : "swift-crypto",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-crypto.git",
+      "state" : {
+        "revision" : "60f13f60c4d093691934dc6cfdf5f508ada1f894",
+        "version" : "2.6.0"
+      }
+    }
+  ],
+  "version" : 3
+}

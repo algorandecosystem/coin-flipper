@@ -53,8 +53,11 @@ $ yarn run dev
 
 Log in with a funded testnet account and go through the steps to create, opt in, flip, settle
 
-### Android
+### Mobile (Android and iOS)
 
-To run the the demo in an Android emulator, cd into the `android` directory and load up the project in Android Studio.
+The `mobile` directory is a Kotlin Multiplatform / Compose Multiplatform app that shares its UI and logic between Android and iOS. Accounts are created or restored through the AlgoKit wallet SDK, which keeps keys encrypted on the device.
 
-Log in with a funded testnet account and go through the steps to opt in, flip, and settle.
+- Android: open the `mobile` directory in Android Studio and run the `androidApp` configuration, or run `./gradlew :androidApp:installDebug` from `mobile`.
+- iOS: open `mobile/iosApp/iosApp.xcodeproj` in Xcode and run it on a simulator or device.
+
+Create or restore a Falcon25 account, fund it from the testnet dispenser (Account → Account Details), then opt in, flip, and settle.

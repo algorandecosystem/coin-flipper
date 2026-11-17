@@ -21,4 +21,4 @@ jobs:
     name: "Android Coin Flipper"
     uses: michaeltchuang/.github/.github/workflows/android-app-tests.yml@main
     with:
-        app_workspace: "android"
+        app_workspace: "mobile"
