@@ -119,3 +119,11 @@ ktlint {
         exclude { it.file.path.contains("/build/") }
     }
 }
+
+// CI runs `./gradlew test`, which the KMP plugin does not define for this module. Run the shared
+// tests (commonTest + androidHostTest) on the JVM so they are covered on any CI runner.
+tasks.register("test") {
+    group = "verification"
+    description = "Runs the shared module's unit tests on the JVM."
+    dependsOn("testAndroidHostTest")
+}
